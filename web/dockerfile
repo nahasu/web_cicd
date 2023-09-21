@@ -33,5 +33,3 @@ EXPOSE 80
 CMD ["apachectl", "-DFOREGROUND"]
 
 # docker run --network host -itd -p 80:80 web-serve
-
-db-server
